@@ -1,137 +1,25 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>花蓮 3 天 2 夜｜已確認行程</title>
-  <style>
-    :root{
-      --bg:#fff8f7;--rose:#f08ca7;--rose2:#d97793;--stone:#3f3836;--text:#5f5652;--muted:#8f7f79;--line:#f4d5dc;--card:rgba(255,255,255,.86);--shadow:0 18px 48px rgba(120,80,80,.12);--r:30px
-    }
-    *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--text);background:radial-gradient(circle at top left,rgba(255,205,216,.65),transparent 34%),radial-gradient(circle at 100% 18%,rgba(255,220,188,.62),transparent 34%),linear-gradient(180deg,#fff8f7 0%,#fff2f5 46%,#fffaf6 100%);min-height:100vh}.page{width:min(100%,460px);margin:0 auto;padding:22px 16px 34px}.card,.hero,.day-card,.map-card,.section{border:1px solid rgba(255,255,255,.9);background:var(--card);box-shadow:var(--shadow);overflow:hidden;border-radius:var(--r)}.hero{position:relative;padding:18px;backdrop-filter:blur(18px)}.hero:before{content:"";position:absolute;right:-36px;top:-36px;width:130px;height:130px;border:1px solid rgba(240,140,167,.35);border-radius:999px}.topbar{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.label{border:1px solid #f7d5dc;background:rgba(255,255,255,.72);color:var(--rose2);border-radius:999px;padding:7px 11px;font-size:10px;font-weight:800;letter-spacing:.22em;white-space:nowrap}.people{background:var(--stone);color:#fff;border-radius:999px;padding:7px 11px;font-size:12px;font-weight:800;white-space:nowrap}.title-card{position:relative;border-radius:28px;background:linear-gradient(135deg,#fff0f4,#fff,#f8f2ed);border:1px solid #f7d5dc;padding:17px}.eyebrow,.date,.section-label{display:flex;gap:7px;align-items:center;color:var(--rose2);font-size:12px;font-weight:800;letter-spacing:.14em}h1{margin:10px 0 0;color:var(--stone);font-size:clamp(34px,9vw,42px);line-height:1.05;letter-spacing:-.04em;font-weight:780}h1 span{display:block;color:var(--rose);font-size:22px;font-weight:700;margin-top:7px}.intro{margin:12px 0 0;font-size:14px;line-height:1.8;color:#6d625e}.status-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:16px}.status{border:1px solid #f4cfd7;background:rgba(255,255,255,.76);border-radius:20px;padding:12px 10px}.status strong{display:block;color:var(--stone);font-size:13px;margin-bottom:4px}.status span{font-size:11px;color:var(--rose2);font-weight:800}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px}.tab{appearance:none;border:1px solid #f4cfd7;background:rgba(255,255,255,.76);color:#766964;border-radius:20px;padding:12px 10px;text-align:left;cursor:pointer;transition:.2s ease;font-family:inherit}.tab strong{display:block;font-size:12px}.tab span{display:block;margin-top:4px;font-size:11px;opacity:.72}.tab.active{background:var(--stone);color:#fff;border-color:var(--stone);box-shadow:0 12px 26px rgba(63,56,54,.18);transform:translateY(-1px)}.day-card{margin-top:18px;padding:20px;background:linear-gradient(135deg,rgba(255,232,238,.9),rgba(255,255,255,.92),rgba(250,244,239,.84))}h2{color:var(--stone);font-size:23px;line-height:1.25;margin:8px 0 0;letter-spacing:-.02em}.mood{margin:10px 0 0;line-height:1.7;font-size:14px;color:#6d625e}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.chip{border:1px solid #f6d2da;background:rgba(255,255,255,.78);color:var(--rose2);padding:7px 10px;border-radius:999px;font-size:12px;font-weight:700}.timeline{margin-top:16px;display:grid;gap:10px}.item{display:flex;gap:12px;padding:14px;border:1px solid rgba(255,255,255,.9);border-radius:25px;background:rgba(255,255,255,.86);box-shadow:0 10px 28px rgba(120,80,80,.07)}.icon{width:44px;height:44px;flex:0 0 44px;display:grid;place-items:center;background:linear-gradient(135deg,#ffe5ec,#fff7ef);color:var(--rose);border-radius:18px;font-size:21px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.8)}.meta{display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0}.time{display:inline-flex;background:#f2eeee;color:#6a5f5a;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:800;white-space:nowrap}.place{color:#9a8a84;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.item h3{margin:9px 0 0;color:var(--stone);font-size:16px;line-height:1.35}.item p{margin:6px 0 0;color:#6d625e;font-size:14px;line-height:1.65}.map-card,.section{margin-top:18px}.map-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 14px;border-bottom:1px solid #f5d9df;background:linear-gradient(90deg,#fff0f4,#fff,#f8f2ed)}.map-title{display:flex;align-items:center;gap:10px}.compass{width:40px;height:40px;display:grid;place-items:center;border-radius:16px;background:#ffe1e9;color:var(--rose);font-size:20px}.map-title small{color:var(--rose2);font-size:10px;font-weight:800;letter-spacing:.24em}.map-title strong{display:block;color:var(--stone);font-size:14px;margin-top:3px}.map-link{text-decoration:none;background:var(--stone);color:#fff;border-radius:999px;padding:9px 12px;font-size:12px;font-weight:800;white-space:nowrap}iframe{width:100%;height:300px;border:0;display:block;filter:saturate(.9)}.section-pad{padding:18px}.info-list{display:grid;gap:10px;margin-top:14px}.info-item{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;border:1px solid var(--line);border-radius:20px;padding:12px 13px;background:rgba(255,255,255,.74);font-size:14px;line-height:1.5}.info-item b{color:var(--stone);white-space:nowrap}.info-item span{text-align:right;color:#6d625e}.recommend-grid{display:grid;gap:10px;margin-top:14px}.recommend{border:1px solid var(--line);border-radius:22px;padding:14px;background:linear-gradient(135deg,#fff,rgba(255,240,244,.55))}.recommend-top{display:flex;align-items:center;justify-content:space-between;gap:8px}.recommend strong{color:var(--stone)}.tag{background:#ffe3eb;color:#cf6f8d;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:800;white-space:nowrap}.recommend p{margin:9px 0 0;font-size:14px;line-height:1.65}.notice{background:linear-gradient(135deg,#3f3836,#4d3a3e,#7a3b4e);color:#fff}.notice .section-label,.notice h2{color:#fff}.notice ul{margin:12px 0 0;padding-left:20px;line-height:1.75;color:rgba(255,255,255,.9);font-size:14px}footer{text-align:center;color:#dba0b1;font-size:12px;padding:26px 0 0}@media(max-width:360px){.page{padding-left:12px;padding-right:12px}.hero,.title-card,.day-card,.section-pad{padding:15px}h1{font-size:32px}h1 span{font-size:20px}.people{font-size:11px;padding:7px 9px}.label{letter-spacing:.16em}.status-grid{grid-template-columns:1fr}}
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>花蓮 3 天 2 夜｜已確認行程</title>
+<style>
+:root{--rose:#f08ca7;--rose2:#d97793;--stone:#3f3836;--text:#5f5652;--line:#f4d5dc;--card:rgba(255,255,255,.88);--shadow:0 18px 48px rgba(120,80,80,.12);--r:30px}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--text);background:radial-gradient(circle at top left,rgba(255,205,216,.65),transparent 34%),radial-gradient(circle at 100% 18%,rgba(255,220,188,.62),transparent 34%),linear-gradient(180deg,#fff8f7 0%,#fff2f5 46%,#fffaf6 100%);min-height:100vh}.page{width:min(100%,460px);margin:0 auto;padding:22px 16px 34px}.hero,.day-card,.map-card,.section{border:1px solid rgba(255,255,255,.9);background:var(--card);box-shadow:var(--shadow);overflow:hidden;border-radius:var(--r)}.hero{padding:18px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.label{border:1px solid #f7d5dc;background:rgba(255,255,255,.72);color:var(--rose2);border-radius:999px;padding:7px 11px;font-size:10px;font-weight:800;letter-spacing:.2em}.people{background:var(--stone);color:#fff;border-radius:999px;padding:7px 11px;font-size:12px;font-weight:800;white-space:nowrap}.title-card{border-radius:28px;background:linear-gradient(135deg,#fff0f4,#fff,#f8f2ed);border:1px solid #f7d5dc;padding:17px}.eyebrow,.date,.section-label{display:flex;gap:7px;align-items:center;color:var(--rose2);font-size:12px;font-weight:800;letter-spacing:.12em}h1{margin:10px 0 0;color:var(--stone);font-size:clamp(34px,9vw,42px);line-height:1.05;letter-spacing:-.04em}h1 span{display:block;color:var(--rose);font-size:22px;margin-top:7px}.intro,.mood{margin:12px 0 0;font-size:14px;line-height:1.8;color:#6d625e}.status-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:16px}.status,.tab{border:1px solid #f4cfd7;background:rgba(255,255,255,.76);border-radius:20px;padding:12px 10px}.status strong{display:block;color:var(--stone);font-size:13px}.status span{font-size:11px;color:var(--rose2);font-weight:800}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px}.tab{color:#766964;text-align:left;cursor:pointer;font-family:inherit}.tab strong{display:block;font-size:12px}.tab span{display:block;margin-top:4px;font-size:11px;opacity:.72}.tab.active{background:var(--stone);color:#fff;border-color:var(--stone)}.day-card{margin-top:18px;padding:20px;background:linear-gradient(135deg,rgba(255,232,238,.9),rgba(255,255,255,.92),rgba(250,244,239,.84))}h2{color:var(--stone);font-size:23px;line-height:1.25;margin:8px 0 0}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.chip{border:1px solid #f6d2da;background:rgba(255,255,255,.78);color:var(--rose2);padding:7px 10px;border-radius:999px;font-size:12px;font-weight:700}.timeline{margin-top:16px;display:grid;gap:10px}.item{display:flex;gap:12px;padding:14px;border:1px solid rgba(255,255,255,.9);border-radius:25px;background:rgba(255,255,255,.86)}.icon{width:44px;height:44px;flex:0 0 44px;display:grid;place-items:center;background:linear-gradient(135deg,#ffe5ec,#fff7ef);border-radius:18px;font-size:21px}.meta{display:flex;align-items:center;justify-content:space-between;gap:8px}.time{background:#f2eeee;color:#6a5f5a;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:800;white-space:nowrap}.place{color:#9a8a84;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.item h3{margin:9px 0 0;color:var(--stone);font-size:16px}.item p{margin:6px 0 0;color:#6d625e;font-size:14px;line-height:1.65}.map-card,.section{margin-top:18px}.map-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 14px;border-bottom:1px solid #f5d9df;background:linear-gradient(90deg,#fff0f4,#fff,#f8f2ed)}.map-title{display:flex;align-items:center;gap:10px}.compass{width:40px;height:40px;display:grid;place-items:center;border-radius:16px;background:#ffe1e9;font-size:20px}.map-title small{color:var(--rose2);font-size:10px;font-weight:800;letter-spacing:.24em}.map-title strong{display:block;color:var(--stone);font-size:14px;margin-top:3px}.map-link,.spot-link{text-decoration:none;background:var(--stone);color:#fff;border-radius:999px;padding:9px 12px;font-size:12px;font-weight:800;white-space:nowrap}.spot-link{display:inline-block;margin-top:8px;background:#fff0f4;color:var(--rose2);border:1px solid #f4cfd7}iframe{width:100%;height:300px;border:0;display:block}.map-body{display:grid;grid-template-columns:1fr}.map-side{padding:14px;border-top:1px solid #f5d9df;background:rgba(255,255,255,.9)}.side-title{margin-top:6px;font-size:18px;color:var(--stone);font-weight:800}.spot-list,.info-list,.recommend-grid{display:grid;gap:10px;margin-top:12px}.spot,.info-item,.recommend{border:1px solid var(--line);border-radius:20px;padding:12px 13px;background:linear-gradient(135deg,#fff,rgba(255,240,244,.55));font-size:14px;line-height:1.5}.spot{display:flex;gap:10px}.spot-num{width:26px;height:26px;min-width:26px;border-radius:999px;display:grid;place-items:center;background:var(--rose);color:#fff;font-size:12px;font-weight:900}.spot strong{display:block;color:var(--stone);font-size:14px}.spot span{display:block;margin-top:3px;color:#7a6e69;font-size:12px;line-height:1.45}.section-pad{padding:18px}.info-item{display:flex;justify-content:space-between;gap:12px}.info-item b{color:var(--stone);white-space:nowrap}.info-item span{text-align:right}.recommend-top{display:flex;align-items:center;justify-content:space-between;gap:8px}.recommend strong{color:var(--stone)}.tag{background:#ffe3eb;color:#cf6f8d;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:800;white-space:nowrap}.recommend p{margin:9px 0 0}.notice{background:linear-gradient(135deg,#3f3836,#4d3a3e,#7a3b4e);color:#fff}.notice .section-label,.notice h2{color:#fff}.notice ul{margin:12px 0 0;padding-left:20px;line-height:1.75;color:rgba(255,255,255,.9);font-size:14px}footer{text-align:center;color:#dba0b1;font-size:12px;padding:26px 0 0}@media(min-width:390px){.map-body{grid-template-columns:1.08fr .92fr}.map-side{border-top:0;border-left:1px solid #f5d9df}}@media(max-width:360px){.status-grid{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
-  <main class="page">
-    <section class="hero">
-      <div class="topbar">
-        <div class="label">HUALIEN TRAVEL</div>
-        <div class="people">👨‍👩‍👧 8大3小＋備2大</div>
-      </div>
-      <div class="title-card">
-        <div class="eyebrow">✅ CONFIRMED TRIP</div>
-        <h1>花蓮 3 天 2 夜<span>已確認行程</span></h1>
-        <p class="intro">住宿已確定為大石小宿，Day 1 沙灘車已預約 13:30 場次。主行程以團體集合為主，備選推薦可自行安排，不影響集合時間。</p>
-      </div>
-      <div class="status-grid">
-        <div class="status"><strong>住宿已確認</strong><span>大石小宿 7/17–7/19</span></div>
-        <div class="status"><strong>沙灘車已預約</strong><span>7/17 13:30｜4台車</span></div>
-        <div class="status"><strong>午餐原則</strong><span>簡單小吃｜不要套餐</span></div>
-        <div class="status"><strong>付款紀錄</strong><span>住宿訂金6000｜沙灘車訂金1000</span></div>
-      </div>
-      <div class="tabs" id="tabs"></div>
-    </section>
-
-    <section id="content"></section>
-
-    <section class="section">
-      <div class="section-pad">
-        <div class="section-label">📌 CONFIRMED SUMMARY</div>
-        <h2>已確認重點</h2>
-        <div class="info-list">
-          <div class="info-item"><b>住宿</b><span>大石小宿｜花蓮縣吉安鄉太昌路522巷16號</span></div>
-          <div class="info-item"><b>入住／退房</b><span>7/17 下午3:00 入住｜7/19 中午11:00 退房</span></div>
-          <div class="info-item"><b>早餐</b><span>含 7/18、7/19 早餐</span></div>
-          <div class="info-item"><b>住宿費用</b><span>已付訂金 6,000 元｜入住後餘額 13,800 元</span></div>
-          <div class="info-item"><b>沙灘車</b><span>7/17 13:30 場次｜4 台車｜2大1小現場決定</span></div>
-          <div class="info-item"><b>沙灘車訂金</b><span>已付訂金 1,000 元</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-pad">
-        <div class="section-label">🏠 LODGING CONFIRMED</div>
-        <h2>住宿已確認｜大石小宿</h2>
-        <div class="recommend">
-          <div class="recommend-top"><strong>大石小宿</strong><span class="tag">已完成保留登記</span></div>
-          <p>地址：花蓮縣吉安鄉太昌路522巷16號。7/17 下午 3:00 入住，7/19 中午 11:00 退房，含 7/18、7/19 早餐。已付訂金 6,000 元，餘額 13,800 元於 7/17 入住後匯款。</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-pad">
-        <div class="section-label">✨ OPTIONAL PICKS</div>
-        <h2>備選推薦｜想去的人自行安排</h2>
-        <p class="mood">以下不是必走行程，適合自由時間、長輩不參加活動、或有人想提早出門時自行選擇。請以不影響集合時間為主。</p>
-        <div class="recommend-grid">
-          <div class="recommend"><div class="recommend-top"><strong>七星潭</strong><span class="tag">看海拍照</span></div><p>適合 Day 1 沙灘車前後短暫停留，散步、拍照、看海都舒服。</p></div>
-          <div class="recommend"><div class="recommend-top"><strong>新城老街／佳興檸檬汁</strong><span class="tag">順路小吃</span></div><p>Day 1 午餐可抓新城、北埔一帶簡單吃，不排套餐，吃完直接接沙灘車。</p></div>
-          <div class="recommend"><div class="recommend-top"><strong>東大門夜市</strong><span class="tag">晚上自由逛</span></div><p>適合 Day 1 或 Day 2 晚上想外出的人，自行覓食、買飲料或逛夜市。</p></div>
-          <div class="recommend"><div class="recommend-top"><strong>松園別館</strong><span class="tag">輕鬆景點</span></div><p>適合長輩版或 Day 3 退房後短暫停留，步調輕鬆、拍照好看。</p></div>
-          <div class="recommend"><div class="recommend-top"><strong>花蓮文創園區</strong><span class="tag">市區散步</span></div><p>適合 Day 3 回程前安排咖啡、伴手禮與散步，不會離市區太遠。</p></div>
-          <div class="recommend"><div class="recommend-top"><strong>貨櫃星巴克／洄瀾灣</strong><span class="tag">打卡咖啡</span></div><p>適合想拍照喝咖啡的人自行安排，離吉安與市區不算太遠。</p></div>
-          <div class="recommend"><div class="recommend-top"><strong>吉安慶修院</strong><span class="tag">近住宿</span></div><p>離大石小宿所在的吉安方向較近，適合不想跑遠的人輕鬆走走。</p></div>
-          <div class="recommend"><div class="recommend-top"><strong>伴手禮採買</strong><span class="tag">回程前</span></div><p>Day 3 午餐後可集中採買麻糬、薯類點心或在地小物，再準備北返。</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section notice">
-      <div class="section-pad">
-        <div class="section-label">♡ TRAVEL REMINDER</div>
-        <h2>出發前提醒</h2>
-        <ul>
-          <li>7/17 沙灘車為 13:30 場次，建議 13:00 前抵達報到。</li>
-          <li>Day 1 午餐不要達基、不要套餐，建議新城／北埔簡單小吃。</li>
-          <li>沙灘車結束後直接回大石小宿入住、洗澡最順。</li>
-          <li>備選推薦為自由安排，請自行注意交通與集合時間。</li>
-          <li>個人盥洗用品、防曬、防蚊、拖鞋、換洗衣物請自行準備。</li>
-        </ul>
-      </div>
-    </section>
-
-    <footer>Hualien Family Trip｜Confirmed Travel Planner</footer>
-  </main>
-
-  <script>
-    const DAYS = [
-      {id:"day1",label:"Day 1",date:"7/17｜新竹 → 花蓮",title:"抵達花蓮・13:30 沙灘車・入住大石小宿",mood:"先玩再入住，沙灘車結束後直接回民宿洗澡最順。",mapQuery:"新城 北埔 曼波海灘 大石小宿 東大門夜市 花蓮",highlights:["新竹出發","簡單午餐","13:30沙灘車","大石小宿"],route:[
-        {time:"06:30",title:"新竹出發",place:"新竹",icon:"🚗",note:"提早出發避開車潮，車上準備水、暈車藥與簡單早餐。"},
-        {time:"08:30",title:"休息補給",place:"蘇澳／南方澳周邊",icon:"☕",note:"上廁所、買水，讓長輩與小孩活動一下。"},
-        {time:"11:30",title:"午餐｜簡單小吃",place:"新城／北埔周邊",icon:"🍜",note:"不吃達基、不排套餐，以麵飯、小吃、自助餐或便當為主，吃完接沙灘車。"},
-        {time:"13:00",title:"沙灘車報到",place:"依業者通知地點",icon:"📍",note:"建議 13:00 前抵達，先上廁所、確認裝備與乘坐方式。"},
-        {time:"13:30",title:"沙灘車體驗",place:"曼波海灘／崇德海岸",icon:"🧭",note:"已訂 4 台車，2大1小乘坐方式現場決定，已付訂金 1,000 元。"},
-        {time:"15:30",title:"前往大石小宿入住",place:"花蓮縣吉安鄉太昌路522巷16號",icon:"🏠",note:"大石小宿 15:00 後可入住，活動後直接回民宿洗澡整理。"},
-        {time:"19:00",title:"晚餐／自由活動",place:"東大門夜市或民宿",icon:"🌙",note:"可視體力安排外出夜市，或留在民宿唱歌、聊天休息。"}
-      ]},
-      {id:"day2",label:"Day 2",date:"7/18｜泛舟主日",title:"泛舟體驗・瑞穗／秀姑巒溪・晚上放鬆",mood:"年輕人主活動日，長輩可走輕鬆版或自行選備選景點。",mapQuery:"大石小宿 瑞穗 秀姑巒溪泛舟 光復糖廠 花蓮",highlights:["民宿早餐","泛舟","長輩輕鬆版","民宿放鬆"],route:[
-        {time:"07:00",title:"早餐與集合",place:"大石小宿",icon:"🥐",note:"民宿含早餐，泛舟日建議吃飽但不要太油，確認換洗衣物與防水袋。"},
-        {time:"08:00",title:"前往泛舟集合點",place:"瑞穗／秀姑巒溪",icon:"🚗",note:"車程較長，建議提早出門，避免集合時間壓力。"},
-        {time:"09:30",title:"年輕人泛舟體驗",place:"秀姑巒溪",icon:"🚣",note:"水上活動需依業者規定與當日天候調整。"},
-        {time:"09:30",title:"長輩輕鬆版",place:"瑞穗牧場／光復糖廠／備選景點",icon:"⛰️",note:"不參加泛舟者可走散步、買伴手禮、喝飲料路線。"},
-        {time:"13:30",title:"午餐與整理",place:"瑞穗周邊",icon:"🍽️",note:"泛舟後先換洗，再安排簡單午餐。"},
-        {time:"15:00",title:"回花蓮市區／吉安",place:"大石小宿方向",icon:"🚗",note:"車上休息，避免再排太硬的景點。"},
-        {time:"18:30",title:"晚餐聚餐",place:"花蓮市區或民宿附近",icon:"🍲",note:"可安排熱炒、外帶或回民宿用餐。"},
-        {time:"20:30",title:"民宿放鬆時間",place:"大石小宿",icon:"🏡",note:"聊天、唱歌、桌遊；晚間活動仍以不影響住宿規定為主。"}
-      ]},
-      {id:"day3",label:"Day 3",date:"7/19｜市區收尾 → 回新竹",title:"早餐・退房・伴手禮・平安返家",mood:"不排太滿，讓長輩和小孩都舒服收尾。",mapQuery:"大石小宿 花蓮文創園區 七星潭 新竹",highlights:["民宿早餐","11:00退房","伴手禮","返程"],route:[
-        {time:"08:30",title:"民宿早餐／整理行李",place:"大石小宿",icon:"☕",note:"民宿含早餐，慢慢收行李，避免第三天太趕。"},
-        {time:"11:00",title:"退房",place:"大石小宿",icon:"🧳",note:"7/19 中午 11:00 退房，確認物品與付款紀錄。"},
-        {time:"11:30",title:"市區輕鬆走走",place:"花蓮文創園區／市區小店",icon:"📍",note:"適合拍照、買咖啡，長輩也比較不累。"},
-        {time:"12:30",title:"午餐",place:"花蓮市區",icon:"🍜",note:"建議選好停車、上菜快的餐廳。"},
-        {time:"13:30",title:"伴手禮採買",place:"花蓮名產店",icon:"🎁",note:"麻糬、薯類點心、在地小物，可集中採買。"},
-        {time:"14:30",title:"啟程回新竹",place:"蘇花改 → 新竹",icon:"🚗",note:"保留休息站與塞車緩衝，依路況調整。"}
-      ]}
-    ];
-    let active="day1";
-    const tabs=document.getElementById("tabs"),content=document.getElementById("content");
-    function esc(str){return String(str).replace(/[&<>"']/g,s=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[s]));}
-    function renderTabs(){tabs.innerHTML=DAYS.map(day=>`<button class="tab ${day.id===active?"active":""}" onclick="setDay('${day.id}')"><strong>${esc(day.label)}</strong><span>${esc(day.date.split("｜")[0])}</span></button>`).join("");}
-    function renderContent(){const day=DAYS.find(d=>d.id===active)||DAYS[0];const mapUrl="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(day.mapQuery);const embedUrl="https://www.google.com/maps?q="+encodeURIComponent(day.mapQuery)+"&output=embed";content.innerHTML=`<div class="day-card"><div class="date">📅 ${esc(day.date)}</div><h2>${esc(day.title)}</h2><p class="mood">${esc(day.mood)}</p><div class="chips">${day.highlights.map(h=>`<span class="chip">${esc(h)}</span>`).join("")}</div></div><div class="timeline">${day.route.map(item=>`<article class="item"><div class="icon">${esc(item.icon)}</div><div style="min-width:0;flex:1"><div class="meta"><span class="time">🕒 ${esc(item.time)}</span><span class="place">${esc(item.place)}</span></div><h3>${esc(item.title)}</h3><p>${esc(item.note)}</p></div></article>`).join("")}</div><div class="map-card"><div class="map-head"><div class="map-title"><div class="compass">🧭</div><div><small>ROUTE MAP</small><strong>今日路線地圖</strong></div></div><a class="map-link" href="${mapUrl}" target="_blank" rel="noreferrer">開啟地圖</a></div><iframe title="花蓮行程地圖" src="${embedUrl}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>`;}
-    function setDay(id){active=id;renderTabs();renderContent();window.scrollTo({top:0,behavior:"smooth"});}
-    renderTabs();renderContent();
-  </script>
+<main class="page">
+<section class="hero"><div class="topbar"><div class="label">HUALIEN TRAVEL</div><div class="people">👨‍👩‍👧 8大3小＋備2大</div></div><div class="title-card"><div class="eyebrow">✅ CONFIRMED TRIP</div><h1>花蓮 3 天 2 夜<span>已確認行程</span></h1><p class="intro">住宿已確定為大石小宿，Day 1 沙灘車已預約 13:30 場次。Day 2 晚上安排德興大草坪太平洋南島聯合豐年節。</p></div><div class="status-grid"><div class="status"><strong>住宿已確認</strong><span>大石小宿 7/17–7/19</span></div><div class="status"><strong>沙灘車已預約</strong><span>7/17 13:30｜4台車</span></div><div class="status"><strong>Day 2 晚上</strong><span>德興大草坪豐年節</span></div><div class="status"><strong>付款紀錄</strong><span>住宿訂金6000｜沙灘車訂金1000</span></div></div><div class="tabs" id="tabs"></div></section>
+<section id="content"></section>
+<section class="section"><div class="section-pad"><div class="section-label">📌 CONFIRMED SUMMARY</div><h2>已確認重點</h2><div class="info-list"><div class="info-item"><b>住宿</b><span>大石小宿｜花蓮縣吉安鄉太昌路522巷16號</span></div><div class="info-item"><b>入住／退房</b><span>7/17 下午3:00 入住｜7/19 中午11:00 退房</span></div><div class="info-item"><b>早餐</b><span>含 7/18、7/19 早餐</span></div><div class="info-item"><b>住宿費用</b><span>已付訂金 6,000 元｜入住後餘額 13,800 元</span></div><div class="info-item"><b>沙灘車</b><span>7/17 13:30 場次｜4 台車｜2大1小現場決定</span></div><div class="info-item"><b>Day 2 晚上</b><span>德興大草坪｜太平洋南島聯合豐年節</span></div></div></div></section>
+<section class="section"><div class="section-pad"><div class="section-label">🏠 LODGING CONFIRMED</div><h2>住宿已確認｜大石小宿</h2><div class="recommend"><div class="recommend-top"><strong>大石小宿</strong><span class="tag">已完成保留登記</span></div><p>地址：花蓮縣吉安鄉太昌路522巷16號。7/17 下午 3:00 入住，7/19 中午 11:00 退房，含 7/18、7/19 早餐。已付訂金 6,000 元，餘額 13,800 元於 7/17 入住後匯款。</p></div></div></section>
+<section class="section"><div class="section-pad"><div class="section-label">✨ OPTIONAL PICKS</div><h2>備選推薦｜想去的人自行安排</h2><p class="mood">以下不是必走行程，適合自由時間、長輩不參加活動、或有人想提早出門時自行選擇。請以不影響集合時間為主。</p><div class="recommend-grid"><div class="recommend"><div class="recommend-top"><strong>七星潭</strong><span class="tag">看海拍照</span></div><p>適合 Day 1 沙灘車前後短暫停留，散步、拍照、看海都舒服。</p></div><div class="recommend"><div class="recommend-top"><strong>新城老街／佳興檸檬汁</strong><span class="tag">順路小吃</span></div><p>Day 1 午餐可抓新城、北埔一帶簡單吃，不排套餐，吃完直接接沙灘車。</p></div><div class="recommend"><div class="recommend-top"><strong>東大門夜市</strong><span class="tag">晚上自由逛</span></div><p>適合 Day 1 晚上想外出的人，自行覓食、買飲料或逛夜市。</p></div><div class="recommend"><div class="recommend-top"><strong>花蓮文創園區</strong><span class="tag">市區散步</span></div><p>適合 Day 3 回程前安排咖啡、伴手禮與散步。</p></div><div class="recommend"><div class="recommend-top"><strong>吉安慶修院</strong><span class="tag">近住宿</span></div><p>離大石小宿所在的吉安方向較近，適合不想跑遠的人輕鬆走走。</p></div></div></div></section>
+<section class="section notice"><div class="section-pad"><div class="section-label">♡ TRAVEL REMINDER</div><h2>出發前提醒</h2><ul><li>7/17 沙灘車為 13:30 場次，建議 13:00 前抵達報到。</li><li>Day 1 午餐不要達基、不要套餐，建議新城／北埔簡單小吃。</li><li>Day 2 泛舟回民宿整理後，晚上前往德興大草坪豐年節。</li><li>備選推薦為自由安排，請自行注意交通與集合時間。</li><li>個人盥洗用品、防曬、防蚊、拖鞋、換洗衣物請自行準備。</li></ul></div></section><footer>Hualien Family Trip｜Confirmed Travel Planner</footer></main>
+<script>
+const nav=u=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(u);
+const DAYS=[{id:"day1",label:"Day 1",date:"7/17｜新竹 → 花蓮",title:"抵達花蓮・13:30 沙灘車・入住大石小宿",mood:"先玩再入住，沙灘車結束後直接回民宿洗澡最順。",mapQuery:"新城老街 曼波海灘 大石小宿 東大門夜市 花蓮",highlights:["新竹出發","簡單午餐","13:30沙灘車","大石小宿"],spots:[{name:"新城／北埔午餐",desc:"簡單小吃、麵飯類，不排套餐",url:nav("新城老街 花蓮")},{name:"沙灘車報到點",desc:"依業者通知地點報到",url:nav("曼波海灘 花蓮")},{name:"曼波海灘／崇德海岸",desc:"13:30 沙灘車體驗",url:nav("曼波海灘 花蓮")},{name:"大石小宿",desc:"入住、洗澡、休息",url:nav("花蓮縣吉安鄉太昌路522巷16號")},{name:"東大門夜市",desc:"晚上自由活動備選",url:nav("東大門夜市 花蓮")}],route:[{time:"06:30",title:"新竹出發",place:"新竹",icon:"🚗",note:"提早出發避開車潮，車上準備水、暈車藥與簡單早餐。"},{time:"08:30",title:"休息補給",place:"蘇澳／南方澳周邊",icon:"☕",note:"上廁所、買水，讓長輩與小孩活動一下。"},{time:"11:30",title:"午餐｜簡單小吃",place:"新城／北埔周邊",icon:"🍜",note:"不吃達基、不排套餐，以麵飯、小吃、自助餐或便當為主，吃完接沙灘車。"},{time:"13:00",title:"沙灘車報到",place:"依業者通知地點",icon:"📍",note:"建議 13:00 前抵達，先上廁所、確認裝備與乘坐方式。"},{time:"13:30",title:"沙灘車體驗",place:"曼波海灘／崇德海岸",icon:"🧭",note:"已訂 4 台車，2大1小乘坐方式現場決定，已付訂金 1,000 元。"},{time:"15:30",title:"前往大石小宿入住",place:"花蓮縣吉安鄉太昌路522巷16號",icon:"🏠",note:"大石小宿 15:00 後可入住，活動後直接回民宿洗澡整理。"},{time:"19:00",title:"晚餐／自由活動",place:"東大門夜市或民宿",icon:"🌙",note:"可視體力安排外出夜市，或留在民宿唱歌、聊天休息。"}]},{id:"day2",label:"Day 2",date:"7/18｜泛舟＋豐年節",title:"泛舟體驗・回民宿整理・德興大草坪豐年節",mood:"白天泛舟，晚上到德興大草坪感受太平洋南島聯合豐年節。",mapQuery:"大石小宿 秀姑巒溪泛舟 德興大草坪 花蓮縣立體育館",highlights:["民宿早餐","泛舟","回民宿整理","豐年節"],spots:[{name:"大石小宿",desc:"早餐後集合出發",url:nav("花蓮縣吉安鄉太昌路522巷16號")},{name:"秀姑巒溪泛舟",desc:"年輕人主活動",url:nav("秀姑巒溪泛舟 花蓮")},{name:"瑞穗／泛舟周邊午餐",desc:"泛舟後換洗、簡單吃",url:nav("瑞穗 餐廳 花蓮")},{name:"大石小宿",desc:"回民宿洗澡整理、休息",url:nav("花蓮縣吉安鄉太昌路522巷16號")},{name:"德興大草坪豐年節",desc:"太平洋南島聯合豐年節晚間活動",url:nav("德興大草坪 花蓮縣立體育館")}],route:[{time:"07:00",title:"早餐與集合",place:"大石小宿",icon:"🥐",note:"民宿含早餐，泛舟日建議吃飽但不要太油，確認換洗衣物與防水袋。"},{time:"08:00",title:"前往泛舟集合點",place:"瑞穗／秀姑巒溪",icon:"🚗",note:"車程較長，建議提早出門，避免集合時間壓力。"},{time:"09:30",title:"年輕人泛舟體驗",place:"秀姑巒溪",icon:"🚣",note:"水上活動需依業者規定與當日天候調整。"},{time:"09:30",title:"長輩輕鬆版",place:"瑞穗牧場／光復糖廠／備選景點",icon:"⛰️",note:"不參加泛舟者可走散步、買伴手禮、喝飲料路線。"},{time:"13:30",title:"午餐與整理",place:"瑞穗周邊",icon:"🍽️",note:"泛舟後先換洗，再安排簡單午餐。"},{time:"15:30",title:"回大石小宿洗澡休息",place:"大石小宿",icon:"🏠",note:"回民宿整理、換乾淨衣服，晚上準備去豐年節。"},{time:"18:00",title:"晚餐／前往活動會場",place:"花蓮市區／德興大草坪",icon:"🍲",note:"可先簡單吃晚餐，再前往花蓮縣立體育館旁德興大草坪。"},{time:"19:00",title:"太平洋南島聯合豐年節",place:"德興大草坪",icon:"🎶",note:"晚上到德興大草坪參加豐年節，欣賞歌舞、感受花蓮原民文化氛圍。"}]},{id:"day3",label:"Day 3",date:"7/19｜市區收尾 → 回新竹",title:"早餐・退房・伴手禮・平安返家",mood:"不排太滿，讓長輩和小孩都舒服收尾。",mapQuery:"大石小宿 花蓮文創園區 花蓮伴手禮 新竹",highlights:["民宿早餐","11:00退房","伴手禮","返程"],spots:[{name:"大石小宿",desc:"早餐、整理行李、11:00退房",url:nav("花蓮縣吉安鄉太昌路522巷16號")},{name:"花蓮文創園區",desc:"市區輕鬆散步備選",url:nav("花蓮文化創意產業園區")},{name:"花蓮市區午餐",desc:"好停車、上菜快為主",url:nav("花蓮市區餐廳")},{name:"伴手禮店",desc:"麻糬、薯類點心、在地小物",url:nav("花蓮伴手禮")},{name:"返回新竹",desc:"蘇花改北返",url:nav("新竹")}],route:[{time:"08:30",title:"民宿早餐／整理行李",place:"大石小宿",icon:"☕",note:"民宿含早餐，慢慢收行李，避免第三天太趕。"},{time:"11:00",title:"退房",place:"大石小宿",icon:"🧳",note:"7/19 中午 11:00 退房，確認物品與付款紀錄。"},{time:"11:30",title:"市區輕鬆走走",place:"花蓮文創園區／市區小店",icon:"📍",note:"適合拍照、買咖啡，長輩也比較不累。"},{time:"12:30",title:"午餐",place:"花蓮市區",icon:"🍜",note:"建議選好停車、上菜快的餐廳。"},{time:"13:30",title:"伴手禮採買",place:"花蓮名產店",icon:"🎁",note:"麻糬、薯類點心、在地小物，可集中採買。"},{time:"14:30",title:"啟程回新竹",place:"蘇花改 → 新竹",icon:"🚗",note:"保留休息站與塞車緩衝，依路況調整。"}]}];
+let active="day1";const tabs=document.getElementById("tabs"),content=document.getElementById("content");function esc(str){return String(str).replace(/[&<>"']/g,s=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[s]));}function renderTabs(){tabs.innerHTML=DAYS.map(day=>`<button class="tab ${day.id===active?"active":""}" onclick="setDay('${day.id}')"><strong>${esc(day.label)}</strong><span>${esc(day.date.split("｜")[0])}</span></button>`).join("");}function renderContent(){const day=DAYS.find(d=>d.id===active)||DAYS[0];const mapUrl=nav(day.mapQuery);const embedUrl="https://www.google.com/maps?q="+encodeURIComponent(day.mapQuery)+"&output=embed";content.innerHTML=`<div class="day-card"><div class="date">📅 ${esc(day.date)}</div><h2>${esc(day.title)}</h2><p class="mood">${esc(day.mood)}</p><div class="chips">${day.highlights.map(h=>`<span class="chip">${esc(h)}</span>`).join("")}</div></div><div class="timeline">${day.route.map(item=>`<article class="item"><div class="icon">${esc(item.icon)}</div><div style="min-width:0;flex:1"><div class="meta"><span class="time">🕒 ${esc(item.time)}</span><span class="place">${esc(item.place)}</span></div><h3>${esc(item.title)}</h3><p>${esc(item.note)}</p></div></article>`).join("")}</div><div class="map-card"><div class="map-head"><div class="map-title"><div class="compass">🧭</div><div><small>ROUTE MAP</small><strong>今日路線地圖</strong></div></div><a class="map-link" href="${mapUrl}" target="_blank" rel="noreferrer">開啟地圖</a></div><div class="map-body"><iframe title="花蓮行程地圖" src="${embedUrl}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="map-side"><div class="section-label">📍 TODAY'S STOPS</div><div class="side-title">今日要去地點</div><div class="spot-list">${day.spots.map((spot,index)=>`<div class="spot"><div class="spot-num">${index+1}</div><div><strong>${esc(spot.name)}</strong><span>${esc(spot.desc)}</span><a class="spot-link" href="${spot.url}" target="_blank" rel="noreferrer">開啟導航 ↗</a></div></div>`).join("")}</div></div></div></div>`;}function setDay(id){active=id;renderTabs();renderContent();window.scrollTo({top:0,behavior:"smooth"});}renderTabs();renderContent();
+</script>
 </body>
 </html>
