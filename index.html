@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>花蓮 3 天 2 夜｜已確認行程</title>
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
@@ -24,6 +27,7 @@
       padding: 20px;
       margin-bottom: 18px;
       box-shadow: 0 12px 28px rgba(120, 80, 80, 0.08);
+      scroll-margin-top: 90px;
     }
     h1, h2, h3 {
       color: #3f3836;
@@ -61,6 +65,37 @@
       font-size: 13px;
       font-weight: 700;
       margin: 3px 4px 3px 0;
+    }
+    .quick-nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      background: rgba(255, 248, 245, 0.94);
+      backdrop-filter: blur(8px);
+      padding: 10px 0 14px;
+      margin-bottom: 16px;
+    }
+    .quick-nav a {
+      display: block;
+      text-align: center;
+      background: #e99ab0;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px;
+      padding: 10px 8px;
+      font-weight: 900;
+      font-size: 15px;
+      box-shadow: 0 8px 18px rgba(201, 109, 135, 0.22);
+    }
+    .quick-nav small {
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      opacity: 0.92;
+      margin-top: 2px;
     }
     .item {
       border-top: 1px dashed #ead0d7;
@@ -117,6 +152,12 @@
       <span class="tag">Day 3 伴手禮</span>
     </section>
 
+    <nav class="quick-nav" aria-label="快速選擇行程日期">
+      <a href="#day1">Day 1<small>沙灘車・夜市</small></a>
+      <a href="#day2">Day 2<small>泛舟・豐年節</small></a>
+      <a href="#day3">Day 3<small>退房・伴手禮</small></a>
+    </nav>
+
     <section class="card">
       <h2>已確認重點</h2>
       <ul>
@@ -129,7 +170,7 @@
       </ul>
     </section>
 
-    <section class="card">
+    <section class="card" id="day1">
       <img class="day-img" src="images/day1-atv-homestay-nightmarket.png" alt="Day 1 沙灘車民宿夜市插圖">
       <h2>Day 1｜7/17 新竹 → 花蓮</h2>
 
@@ -182,7 +223,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="day2">
       <img class="day-img" src="images/day2-rafting-festival.png" alt="Day 2 泛舟豐年節插圖">
       <h2>Day 2｜7/18 泛舟＋豐年節</h2>
 
@@ -215,11 +256,13 @@
         <div class="time">19:00</div>
         <h3>太平洋南島聯合豐年節</h3>
         <p>地點：花蓮縣立體育館旁德興大草坪。欣賞歌舞、感受花蓮原民文化氛圍。</p>
-        <a class="button" href="https://www.google.com/maps/search/?api=1&query=花蓮縣立體育館旁德興大草坪" target="_blank">開啟導航</a>
+        <p>導航已改用德興大草坪正確地圖座標，避免文字搜尋跑偏。</p>
+        <a class="button" href="https://www.google.com/maps/dir/?api=1&destination=24.005294000000028,121.57851188885496&travelmode=driving" target="_blank">開啟精準導航</a>
+        <iframe class="map-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7304442822756!2d121.57851188885496!3d24.005294000000028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34689f66d3f61883%3A0x3d80771167dbf623!2z5b636IiI5aSn6I2J5Z2q!5e0!3m2!1szh-TW!2stw!4v1780903892871!5m2!1szh-TW!2stw" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="day3">
       <img class="day-img" src="images/day3-souvenir-return.png" alt="Day 3 伴手禮回程插圖">
       <h2>Day 3｜7/19 早餐・退房・伴手禮・回新竹</h2>
 
@@ -272,7 +315,7 @@
         <li>7/17 沙灘車為 13:30 場次，建議 13:00 前抵達報到。</li>
         <li>Day 1 午餐不要達基、不要套餐。</li>
         <li>Day 2 泛舟回民宿整理後，晚上前往德興大草坪豐年節。</li>
-        <li>只有已確認地址的行程卡片才放導航連結。</li>
+        <li>東大門夜市與德興大草坪已改用精準座標導航。</li>
       </ul>
     </section>
 
