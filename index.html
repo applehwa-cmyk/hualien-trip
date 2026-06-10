@@ -129,6 +129,37 @@
       padding: 12px;
       margin-top: 10px;
     }
+    .icon-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 10px 0 0;
+      display: grid;
+      gap: 8px;
+    }
+    .icon-list li {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 10px;
+      align-items: start;
+      background: rgba(255, 255, 255, 0.65);
+      border: 1px solid #f2d8c2;
+      border-radius: 14px;
+      padding: 9px 10px;
+    }
+    .icon-list .icon {
+      display: inline-flex;
+      width: 28px;
+      height: 28px;
+      align-items: center;
+      justify-content: center;
+      background: #ffe3eb;
+      border-radius: 999px;
+      font-size: 17px;
+      line-height: 1;
+    }
+    .icon-list strong {
+      color: #8a5140;
+    }
     .map-embed {
       width: 100%;
       height: 260px;
@@ -251,15 +282,15 @@
         <p>年輕人參加泛舟；不參加泛舟者可安排瑞穗牧場、光復糖廠或輕鬆散步路線。</p>
         <div class="note">
           <strong>泛舟重要注意事項</strong>
-          <ul>
-            <li>請穿著輕便的長袖、長褲，預防曬傷與擦傷。</li>
-            <li>請穿包覆腳的鞋子，布鞋、溯溪鞋、防水鞋都適合。</li>
-            <li>請務必攜帶換洗衣物與毛巾，方便活動結束後更換。</li>
-            <li>勿攜帶過多行李及貴重物品。</li>
-            <li>請準備防曬用品，建議使用海洋友善防曬乳。</li>
-            <li>近視者建議使用拋棄式隱形眼鏡；如戴眼鏡，請務必搭配眼鏡繩。</li>
-            <li>可攜帶個人飲用水、少許零食餅乾等。</li>
-            <li>活動過程中請勿隨意丟垃圾至河川內。</li>
+          <ul class="icon-list">
+            <li><span class="icon">👕</span><span><strong>衣著：</strong>請穿著輕便長袖、長褲，預防曬傷與擦傷。</span></li>
+            <li><span class="icon">👟</span><span><strong>鞋子：</strong>請穿包覆腳的鞋子，布鞋、溯溪鞋、防水鞋都適合。</span></li>
+            <li><span class="icon">🧺</span><span><strong>換洗：</strong>請務必攜帶換洗衣物與毛巾，方便活動結束後更換。</span></li>
+            <li><span class="icon">🎒</span><span><strong>行李：</strong>勿攜帶過多行李及貴重物品。</span></li>
+            <li><span class="icon">☀️</span><span><strong>防曬：</strong>請準備防曬用品，建議使用海洋友善防曬乳。</span></li>
+            <li><span class="icon">👓</span><span><strong>眼鏡：</strong>近視者建議使用拋棄式隱形眼鏡；如戴眼鏡，請務必搭配眼鏡繩。</span></li>
+            <li><span class="icon">🥤</span><span><strong>補給：</strong>可攜帶個人飲用水、少許零食餅乾等。</span></li>
+            <li><span class="icon">🌿</span><span><strong>環保：</strong>活動過程中請勿隨意丟垃圾至河川內。</span></li>
           </ul>
         </div>
       </div>
