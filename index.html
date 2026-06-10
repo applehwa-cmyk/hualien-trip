@@ -1,383 +1,52 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>花蓮 3 天 2 夜｜已確認行程</title>
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
-      background: #fff8f5;
-      color: #4a403c;
-      line-height: 1.75;
-    }
-    .wrap {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 24px 16px 48px;
-    }
-    .card {
-      background: #fff;
-      border: 1px solid #f2d6dc;
-      border-radius: 22px;
-      padding: 20px;
-      margin-bottom: 18px;
-      box-shadow: 0 12px 28px rgba(120, 80, 80, 0.08);
-      scroll-margin-top: 90px;
-    }
-    h1, h2, h3 {
-      color: #3f3836;
-      line-height: 1.3;
-    }
-    h1 {
-      font-size: 30px;
-      margin-top: 12px;
-    }
-    h2 {
-      font-size: 22px;
-      border-left: 6px solid #e99ab0;
-      padding-left: 10px;
-      margin-top: 0;
-    }
-    h3 {
-      font-size: 18px;
-      margin-bottom: 6px;
-    }
-    .hero-img,
-    .day-img {
-      width: 100%;
-      border-radius: 18px;
-      display: block;
-      margin-bottom: 14px;
-      border: 1px solid #f3d8de;
-      background: #fff;
-    }
-    .tag {
-      display: inline-block;
-      background: #ffe3eb;
-      color: #c96d87;
-      border-radius: 999px;
-      padding: 5px 10px;
-      font-size: 13px;
-      font-weight: 700;
-      margin: 3px 4px 3px 0;
-    }
-    .quick-nav {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 8px;
-      background: rgba(255, 248, 245, 0.94);
-      backdrop-filter: blur(8px);
-      padding: 10px 0 14px;
-      margin-bottom: 16px;
-    }
-    .quick-nav a {
-      display: block;
-      text-align: center;
-      background: #e99ab0;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 999px;
-      padding: 10px 8px;
-      font-weight: 900;
-      font-size: 15px;
-      box-shadow: 0 8px 18px rgba(201, 109, 135, 0.22);
-    }
-    .quick-nav small {
-      display: block;
-      font-size: 11px;
-      font-weight: 700;
-      opacity: 0.92;
-      margin-top: 2px;
-    }
-    .item {
-      border-top: 1px dashed #ead0d7;
-      padding: 12px 0;
-    }
-    .item:first-child {
-      border-top: 0;
-    }
-    .time {
-      font-weight: 800;
-      color: #c96d87;
-    }
-    a.button {
-      display: inline-block;
-      background: #e99ab0;
-      color: #fff;
-      padding: 8px 12px;
-      border-radius: 999px;
-      margin-top: 6px;
-      font-size: 14px;
-      font-weight: 800;
-      text-decoration: none;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .note {
-      background: #fff2e8;
-      border: 1px solid #f2d8c2;
-      border-radius: 16px;
-      padding: 12px;
-      margin-top: 10px;
-    }
-    .icon-list {
-      list-style: none;
-      padding-left: 0;
-      margin: 10px 0 0;
-      display: grid;
-      gap: 8px;
-    }
-    .icon-list li {
-      display: grid;
-      grid-template-columns: 34px 1fr;
-      gap: 10px;
-      align-items: start;
-      background: rgba(255, 255, 255, 0.65);
-      border: 1px solid #f2d8c2;
-      border-radius: 14px;
-      padding: 9px 10px;
-    }
-    .icon-list .icon {
-      display: inline-flex;
-      width: 28px;
-      height: 28px;
-      align-items: center;
-      justify-content: center;
-      background: #ffe3eb;
-      border-radius: 999px;
-      font-size: 17px;
-      line-height: 1;
-    }
-    .icon-list strong {
-      color: #8a5140;
-    }
-    .map-embed {
-      width: 100%;
-      height: 260px;
-      border: 0;
-      border-radius: 18px;
-      margin-top: 12px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>花蓮 3 天 2 夜｜已確認行程</title>
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;background:#fff8f5;color:#4a403c;line-height:1.75}.wrap{max-width:760px;margin:auto;padding:24px 16px 48px}.card{background:#fff;border:1px solid #f2d6dc;border-radius:22px;padding:20px;margin-bottom:18px;box-shadow:0 12px 28px rgba(120,80,80,.08)}h1,h2,h3{color:#3f3836;line-height:1.3}h1{font-size:30px;margin:12px 0}h2{font-size:22px;border-left:6px solid #e99ab0;padding-left:10px;margin-top:0}h3{font-size:18px;margin-bottom:6px}.img{width:100%;border-radius:18px;display:block;margin-bottom:14px;border:1px solid #f3d8de;background:#fff}.tag{display:inline-block;background:#ffe3eb;color:#c96d87;border-radius:999px;padding:5px 10px;font-size:13px;font-weight:700;margin:3px 4px 3px 0}.item{border-top:1px dashed #ead0d7;padding:12px 0}.item:first-child{border-top:0}.time{font-weight:800;color:#c96d87}.button{display:inline-block;background:#e99ab0;color:#fff;padding:8px 12px;border-radius:999px;margin-top:6px;font-size:14px;font-weight:800;text-decoration:none}.note{background:#fff2e8;border:1px solid #f2d8c2;border-radius:16px;padding:12px;margin-top:10px}ul{padding-left:20px}
+</style>
 </head>
-
 <body>
-  <main class="wrap">
-
-    <section class="card">
-      <img class="hero-img" src="images/hero-hualien-watercolor.png" alt="花蓮山海旅行插圖">
-      <h1>花蓮 3 天 2 夜｜已確認行程</h1>
-      <p>7/17–7/19｜新竹出發，自駕花蓮旅行。住宿已確認為大石小宿，Day 1 沙灘車已預約 13:30 場次，Day 2 晚上安排德興大草坪豐年節。</p>
-      <span class="tag">住宿已確認</span>
-      <span class="tag">沙灘車已預約</span>
-      <span class="tag">Day 2 泛舟</span>
-      <span class="tag">Day 2 豐年節</span>
-      <span class="tag">Day 3 將軍府</span>
-      <span class="tag">Day 3 伴手禮</span>
-    </section>
-
-    <nav class="quick-nav" aria-label="快速選擇行程日期">
-      <a href="#day1">Day 1<small>沙灘車・夜市</small></a>
-      <a href="#day2">Day 2<small>泛舟・豐年節</small></a>
-      <a href="#day3">Day 3<small>將軍府・伴手禮</small></a>
-    </nav>
-
-    <section class="card">
-      <h2>已確認重點</h2>
-      <ul>
-        <li><strong>住宿｜</strong>大石小宿，973花蓮縣吉安鄉太昌村太昌路522巷16號</li>
-        <li><strong>入住｜</strong>7/17 下午 3:00</li>
-        <li><strong>退房｜</strong>7/19 中午 11:00</li>
-        <li><strong>早餐｜</strong>含 7/18、7/19 早餐</li>
-        <li><strong>住宿訂金｜</strong>已付 6,000 元，餘額 13,800 元於入住後匯款</li>
-        <li><strong>沙灘車｜</strong>7/17 13:30，已訂 4 台車，已付訂金 1,000 元</li>
-      </ul>
-      <p>大石小宿導航已改用正確地圖座標，避免地址搜尋跑偏。</p>
-      <a class="button" href="https://www.google.com/maps/dir/?api=1&destination=23.9944777785046,121.56089597367748&travelmode=driving" target="_blank">開啟大石小宿精準導航</a>
-      <iframe class="map-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.0367939520806!2d121.56089597367748!3d23.9944777785046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34689f171b43b2a9%3A0x127e716b5d10849b!2z5aSn55-z5bCP5a6_5rCR5a6_77yI6Iqx6JOu5L2P5a6_5o6o6JamIOiKseiTruawkeWuv-aOqOiWpu-8iQ!5e0!3m2!1szh-TW!2stw!4v1780906711605!5m2!1szh-TW!2stw" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-
-    <section class="card" id="day1">
-      <img class="day-img" src="images/day1-atv-homestay-nightmarket.png" alt="Day 1 沙灘車民宿夜市插圖">
-      <h2>Day 1｜7/17 新竹 → 花蓮</h2>
-
-      <div class="item">
-        <div class="time">06:30</div>
-        <h3>新竹出發</h3>
-        <p>提早出發，避開車潮。車上可準備水、暈車藥與簡單早餐。</p>
-      </div>
-
-      <div class="item">
-        <div class="time">08:30</div>
-        <h3>蘇澳／南方澳周邊休息補給</h3>
-        <p>上廁所、買水，讓長輩與小孩活動一下。</p>
-      </div>
-
-      <div class="item">
-        <div class="time">11:30</div>
-        <h3>午餐｜新城／北埔簡單小吃</h3>
-        <p>不吃達基、不排套餐，以簡單小吃、麵飯、便當或自助餐為主。</p>
-      </div>
-
-      <div class="item">
-        <div class="time">13:00</div>
-        <h3>沙灘車報到</h3>
-        <p>地點：971花蓮縣新城鄉66-16號</p>
-        <a class="button" href="https://www.google.com/maps/search/?api=1&query=971花蓮縣新城鄉66-16號" target="_blank">開啟導航</a>
-      </div>
-
-      <div class="item">
-        <div class="time">13:30</div>
-        <h3>沙灘車體驗</h3>
-        <p>已訂 4 台車，2 大 1 小乘坐方式現場決定。</p>
-        <a class="button" href="https://www.google.com/maps/search/?api=1&query=971花蓮縣新城鄉66-16號" target="_blank">開啟導航</a>
-      </div>
-
-      <div class="item">
-        <div class="time">15:30</div>
-        <h3>前往大石小宿入住</h3>
-        <p>地點：973花蓮縣吉安鄉太昌村太昌路522巷16號</p>
-        <p>已改用大石小宿正確地圖座標導航。</p>
-        <a class="button" href="https://www.google.com/maps/dir/?api=1&destination=23.9944777785046,121.56089597367748&travelmode=driving" target="_blank">開啟精準導航</a>
-      </div>
-
-      <div class="item">
-        <div class="time">晚上</div>
-        <h3>東大門夜市／民宿自由活動</h3>
-        <p>東大門夜市地址：970花蓮縣花蓮市民主里中山路50號</p>
-        <p>導航已改用正確地圖座標，避免地址搜尋跑偏。</p>
-        <a class="button" href="https://www.google.com/maps/dir/?api=1&destination=23.974258236186795,121.6120669026477&travelmode=driving" target="_blank">開啟精準導航</a>
-        <iframe class="map-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4481.7945275935635!2d121.6120669026477!3d23.974258236186795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34689fe9f14e0c29%3A0xbe7996e0680a20e5!2z5p2x5aSn6ZaA5aSc5biC!5e0!3m2!1szh-TW!2stw!4v1780903539328!5m2!1szh-TW!2stw" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
-
-    <section class="card" id="day2">
-      <img class="day-img" src="images/day2-rafting-festival.png" alt="Day 2 泛舟豐年節插圖">
-      <h2>Day 2｜7/18 泛舟＋豐年節</h2>
-
-      <div class="item">
-        <div class="time">07:00</div>
-        <h3>民宿早餐與集合</h3>
-        <p>民宿含早餐，泛舟日建議吃飽但不要太油，確認換洗衣物與防水袋。</p>
-      </div>
-
-      <div class="item">
-        <div class="time">08:00</div>
-        <h3>前往泛舟集合點</h3>
-        <p>車程較長，建議提早出門，避免集合時間壓力。</p>
-      </div>
-
-      <div class="item">
-        <div class="time">09:30</div>
-        <h3>年輕人泛舟體驗／長輩輕鬆版</h3>
-        <p>年輕人參加泛舟；不參加泛舟者可安排瑞穗牧場、光復糖廠或輕鬆散步路線。</p>
-        <div class="note">
-          <strong>泛舟重要注意事項</strong>
-          <ul class="icon-list">
-            <li><span class="icon">👕</span><span><strong>衣著：</strong>請穿著輕便長袖、長褲，預防曬傷與擦傷。</span></li>
-            <li><span class="icon">👟</span><span><strong>鞋子：</strong>請穿包覆腳的鞋子，布鞋、溯溪鞋、防水鞋都適合。</span></li>
-            <li><span class="icon">🧺</span><span><strong>換洗：</strong>請務必攜帶換洗衣物與毛巾，方便活動結束後更換。</span></li>
-            <li><span class="icon">🎒</span><span><strong>行李：</strong>勿攜帶過多行李及貴重物品。</span></li>
-            <li><span class="icon">☀️</span><span><strong>防曬：</strong>請準備防曬用品，建議使用海洋友善防曬乳。</span></li>
-            <li><span class="icon">👓</span><span><strong>眼鏡：</strong>近視者建議使用拋棄式隱形眼鏡；如戴眼鏡，請務必搭配眼鏡繩。</span></li>
-            <li><span class="icon">🥤</span><span><strong>補給：</strong>可攜帶個人飲用水、少許零食餅乾等。</span></li>
-            <li><span class="icon">🌿</span><span><strong>環保：</strong>活動過程中請勿隨意丟垃圾至河川內。</span></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="time">15:30</div>
-        <h3>回大石小宿洗澡休息</h3>
-        <p>回民宿整理、換乾淨衣服，晚上準備去豐年節。</p>
-        <a class="button" href="https://www.google.com/maps/dir/?api=1&destination=23.9944777785046,121.56089597367748&travelmode=driving" target="_blank">開啟精準導航</a>
-      </div>
-
-      <div class="item">
-        <div class="time">19:00</div>
-        <h3>太平洋南島聯合豐年節</h3>
-        <p>地點：花蓮縣立體育館旁德興大草坪。欣賞歌舞、感受花蓮原民文化氛圍。</p>
-        <p>導航已改用德興大草坪正確地圖座標，避免文字搜尋跑偏。</p>
-        <a class="button" href="https://www.google.com/maps/dir/?api=1&destination=24.005294000000028,121.57851188885496&travelmode=driving" target="_blank">開啟精準導航</a>
-        <iframe class="map-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7304442822756!2d121.57851188885496!3d24.005294000000028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34689f66d3f61883%3A0x3d80771167dbf623!2z5b636IiI5aSn6I2J5Z2q!5e0!3m2!1szh-TW!2stw!4v1780903892871!5m2!1szh-TW!2stw" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
-
-    <section class="card" id="day3">
-      <img class="day-img" src="images/day3-souvenir-return.png" alt="Day 3 伴手禮回程插圖">
-      <h2>Day 3｜7/19 早餐・退房・將軍府・伴手禮・回新竹</h2>
-
-      <div class="item">
-        <div class="time">08:30</div>
-        <h3>民宿早餐／整理行李</h3>
-        <p>慢慢收行李，避免第三天太趕。</p>
-      </div>
-
-      <div class="item">
-        <div class="time">11:00</div>
-        <h3>退房</h3>
-        <p>大石小宿退房，確認物品與付款紀錄。</p>
-        <a class="button" href="https://www.google.com/maps/dir/?api=1&destination=23.9944777785046,121.56089597367748&travelmode=driving" target="_blank">開啟精準導航</a>
-      </div>
-
-      <div class="item">
-        <div class="time">11:30</div>
-        <h3>市區輕鬆走走／將軍府</h3>
-        <p>推薦安排將軍府，適合退房後順路走走、拍照、感受花蓮市區的歷史建築氛圍。</p>
-        <a class="button" href="https://share.google/DcNKt6dP8bhTj5LkI" target="_blank">開啟將軍府導航</a>
-      </div>
-
-      <div class="item">
-        <div class="time">12:30</div>
-        <h3>市區午餐</h3>
-        <p>將軍府結束後，可就近安排花蓮市區午餐、咖啡或好停車的餐廳。</p>
-      </div>
-
-      <div class="item">
-        <div class="time">13:30</div>
-        <h3>伴手禮採買</h3>
-        <p>可依大家喜好自行安排，不一定全跑，避免壓縮回程時間。</p>
-
-        <div class="note">
-          <strong>Day 3 伴手禮推薦</strong>
-          <ul>
-            <li>花崗山剝皮辣椒｜鹹香微辣、適合料理配菜</li>
-            <li>德利豆乾 站前店｜百年老店、經典豆乾伴手禮</li>
-            <li>洄瀾醬人｜特色醬料，可官網購買，兩罐免運</li>
-            <li>杜倫先生｜麻糬、甜點、蛋糕類伴手禮</li>
-            <li>曾記麻糬 中華門市｜花蓮經典麻糬、安全牌伴手禮</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="time">14:30</div>
-        <h3>啟程回新竹</h3>
-        <p>保留休息站與塞車緩衝，依路況調整。</p>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>出發前提醒</h2>
-      <ul>
-        <li>7/17 沙灘車為 13:30 場次，建議 13:00 前抵達報到。</li>
-        <li>Day 1 午餐不要達基、不要套餐。</li>
-        <li>Day 2 泛舟請穿輕便長袖長褲與包覆腳的鞋子，並攜帶換洗衣物與毛巾。</li>
-        <li>Day 2 泛舟回民宿整理後，晚上前往德興大草坪豐年節。</li>
-        <li>Day 3 新增將軍府，適合退房後市區輕鬆走走。</li>
-        <li>大石小宿、東大門夜市與德興大草坪已改用精準座標導航。</li>
-      </ul>
-    </section>
-
-  </main>
+<main class="wrap">
+<section class="card">
+<img class="img" src="images/hero-hualien-watercolor.png" alt="花蓮山海旅行插圖">
+<h1>花蓮 3 天 2 夜｜已確認行程</h1>
+<p>7/17–7/19｜新竹出發，自駕花蓮旅行。住宿已確認為大石小宿，Day 1 沙灘車已預約 13:30，Day 2 晚上安排德興大草坪豐年節。</p>
+<span class="tag">住宿已確認</span><span class="tag">沙灘車已預約</span><span class="tag">Day 2 豐年節</span><span class="tag">Day 3 伴手禮</span>
+</section>
+<section class="card"><h2>已確認重點</h2><ul><li><b>住宿｜</b>大石小宿，973花蓮縣吉安鄉太昌村太昌路522巷16號</li><li><b>入住｜</b>7/17 下午 3:00；<b>退房｜</b>7/19 中午 11:00</li><li><b>早餐｜</b>含 7/18、7/19 早餐</li><li><b>住宿訂金｜</b>已付 6,000 元，餘額 13,800 元入住後匯款</li><li><b>沙灘車｜</b>7/17 13:30，已訂 4 台車，已付訂金 1,000 元</li></ul></section>
+<section class="card">
+<img class="img" src="images/day1-atv-homestay-nightmarket.png" alt="Day 1 沙灘車民宿夜市插圖">
+<h2>Day 1｜7/17 新竹 → 花蓮</h2>
+<div class="item"><div class="time">06:30</div><h3>新竹出發</h3><p>提早出發，避開車潮。</p></div>
+<div class="item"><div class="time">08:30</div><h3>蘇澳／南方澳周邊休息補給</h3><p>上廁所、買水，讓長輩與小孩活動一下。</p></div>
+<div class="item"><div class="time">11:30</div><h3>午餐｜新城／北埔簡單小吃</h3><p>不吃達基、不排套餐，以簡單小吃、麵飯、便當或自助餐為主。</p></div>
+<div class="item"><div class="time">13:00</div><h3>沙灘車報到</h3><p>971花蓮縣新城鄉66-16號</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=971花蓮縣新城鄉66-16號" target="_blank">開啟導航</a></div>
+<div class="item"><div class="time">13:30</div><h3>沙灘車體驗</h3><p>已訂 4 台車，2 大 1 小乘坐方式現場決定。</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=971花蓮縣新城鄉66-16號" target="_blank">開啟導航</a></div>
+<div class="item"><div class="time">15:30</div><h3>前往大石小宿入住</h3><p>973花蓮縣吉安鄉太昌村太昌路522巷16號</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=973花蓮縣吉安鄉太昌村太昌路522巷16號" target="_blank">開啟導航</a></div>
+<div class="item"><div class="time">晚上</div><h3>東大門夜市／民宿自由活動</h3><p>970花蓮縣花蓮市民主里重慶路415號</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=970花蓮縣花蓮市民主里重慶路415號" target="_blank">開啟導航</a></div>
+</section>
+<section class="card">
+<img class="img" src="images/day2-rafting-festival.png" alt="Day 2 泛舟豐年節插圖">
+<h2>Day 2｜7/18 泛舟＋豐年節</h2>
+<div class="item"><div class="time">07:00</div><h3>民宿早餐與集合</h3><p>確認換洗衣物與防水袋。</p></div>
+<div class="item"><div class="time">08:00</div><h3>前往泛舟集合點</h3><p>車程較長，建議提早出門。</p></div>
+<div class="item"><div class="time">09:30</div><h3>年輕人泛舟／長輩輕鬆版</h3><p>長輩可安排瑞穗牧場、光復糖廠或輕鬆散步路線。</p></div>
+<div class="item"><div class="time">15:30</div><h3>回大石小宿洗澡休息</h3><p>晚上準備去豐年節。</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=973花蓮縣吉安鄉太昌村太昌路522巷16號" target="_blank">開啟導航</a></div>
+<div class="item"><div class="time">19:00</div><h3>太平洋南島聯合豐年節</h3><p>970花蓮縣花蓮市濟慈路花蓮體育場公廁。</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=970花蓮縣花蓮市濟慈路花蓮體育場公廁" target="_blank">開啟導航</a></div>
+</section>
+<section class="card">
+<img class="img" src="images/day3-souvenir-return.png" alt="Day 3 伴手禮回程插圖">
+<h2>Day 3｜7/19 早餐・退房・伴手禮・回新竹</h2>
+<div class="item"><div class="time">08:30</div><h3>民宿早餐／整理行李</h3><p>慢慢收行李，避免第三天太趕。</p></div>
+<div class="item"><div class="time">11:00</div><h3>退房</h3><p>大石小宿退房，確認物品與付款紀錄。</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=973花蓮縣吉安鄉太昌村太昌路522巷16號" target="_blank">開啟導航</a></div>
+<div class="item"><div class="time">11:30</div><h3>市區輕鬆走走／午餐</h3><p>可安排花蓮文創園區、市區小店、咖啡或好停車的餐廳。</p></div>
+<div class="item"><div class="time">13:30</div><h3>伴手禮採買</h3><p>可依大家喜好自行安排，不一定全跑，避免壓縮回程時間。</p><div class="note"><b>Day 3 伴手禮推薦</b><ul><li>花崗山剝皮辣椒｜鹹香微辣、適合料理配菜</li><li>德利豆乾 站前店｜百年老店、經典豆乾伴手禮</li><li>洄瀾醬人｜特色醬料，可官網購買，兩罐免運</li><li>杜倫先生｜麻糬、甜點、蛋糕類伴手禮</li><li>曾記麻糬 中華門市｜花蓮經典麻糬、安全牌伴手禮</li></ul></div></div>
+<div class="item"><div class="time">14:30</div><h3>啟程回新竹</h3><p>保留休息站與塞車緩衝，依路況調整。</p></div>
+</section>
+<section class="card"><h2>出發前提醒</h2><ul><li>7/17 沙灘車為 13:30 場次，建議 13:00 前抵達報到。</li><li>Day 1 午餐不要達基、不要套餐。</li><li>Day 2 泛舟回民宿整理後，晚上前往德興大草坪豐年節。</li><li>只有已確認地址的行程卡片才放導航連結。</li></ul></section>
+</main>
 </body>
 </html>
